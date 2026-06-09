@@ -2,7 +2,6 @@
   <a href="https://istinye.edu.tr">
     <img src="docs/assets/istinye-university-logo.png" alt="Istinye University" width="180"/>
   </a>
-<div align="center">
 
   # AndroidManifest İzin Denetçisi
 

@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  auditor:
+    build: .
+    env_file: .env
+    volumes:
+      - ./apks:/app/apks
+      - ./reports:/app/reports
+    # Kullanım örneği (override ile):
+    # docker compose run auditor --apk apks/ornek.apk --output reports/

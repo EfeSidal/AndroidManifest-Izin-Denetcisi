@@ -1,0 +1,119 @@
+{
+  "_meta": {
+    "aciklama": "Android izin -> seviye/grup/agirlik eslemesi",
+    "kaynak": "https://developer.android.com/reference/android/Manifest.permission",
+    "agirlik_semasi": {
+      "normal": 1,
+      "signature": 3,
+      "dangerous_taban": 5,
+      "dangerous_yuksek_hassasiyet": 9
+    },
+    "not": "Yuksek hassasiyet: SMS, CALL_LOG, CONTACTS, FINE_LOCATION, RECORD_AUDIO, CAMERA gruplari"
+  },
+
+  "android.permission.ACCESS_FINE_LOCATION":        {"level": "dangerous", "group": "LOCATION",   "weight": 9},
+  "android.permission.ACCESS_COARSE_LOCATION":      {"level": "dangerous", "group": "LOCATION",   "weight": 5},
+  "android.permission.ACCESS_BACKGROUND_LOCATION":  {"level": "dangerous", "group": "LOCATION",   "weight": 9},
+  "android.permission.ACCESS_MEDIA_LOCATION":       {"level": "dangerous", "group": "LOCATION",   "weight": 5},
+
+  "android.permission.CAMERA":                      {"level": "dangerous", "group": "CAMERA",     "weight": 9},
+
+  "android.permission.RECORD_AUDIO":                {"level": "dangerous", "group": "MICROPHONE", "weight": 9},
+
+  "android.permission.READ_CONTACTS":               {"level": "dangerous", "group": "CONTACTS",   "weight": 9},
+  "android.permission.WRITE_CONTACTS":              {"level": "dangerous", "group": "CONTACTS",   "weight": 5},
+  "android.permission.GET_ACCOUNTS":                {"level": "dangerous", "group": "CONTACTS",   "weight": 5},
+
+  "android.permission.READ_PHONE_STATE":            {"level": "dangerous", "group": "PHONE",      "weight": 5},
+  "android.permission.CALL_PHONE":                  {"level": "dangerous", "group": "PHONE",      "weight": 5},
+  "android.permission.ANSWER_PHONE_CALLS":          {"level": "dangerous", "group": "PHONE",      "weight": 5},
+  "android.permission.READ_PHONE_NUMBERS":          {"level": "dangerous", "group": "PHONE",      "weight": 5},
+  "android.permission.USE_SIP":                     {"level": "dangerous", "group": "PHONE",      "weight": 5},
+  "android.permission.ACCEPT_HANDOVER":             {"level": "dangerous", "group": "PHONE",      "weight": 5},
+
+  "android.permission.READ_CALL_LOG":               {"level": "dangerous", "group": "CALL_LOG",   "weight": 9},
+  "android.permission.WRITE_CALL_LOG":              {"level": "dangerous", "group": "CALL_LOG",   "weight": 9},
+  "android.permission.PROCESS_OUTGOING_CALLS":      {"level": "dangerous", "group": "CALL_LOG",   "weight": 9},
+
+  "android.permission.SEND_SMS":                    {"level": "dangerous", "group": "SMS",        "weight": 9},
+  "android.permission.RECEIVE_SMS":                 {"level": "dangerous", "group": "SMS",        "weight": 9},
+  "android.permission.READ_SMS":                    {"level": "dangerous", "group": "SMS",        "weight": 9},
+  "android.permission.RECEIVE_WAP_PUSH":            {"level": "dangerous", "group": "SMS",        "weight": 5},
+  "android.permission.RECEIVE_MMS":                 {"level": "dangerous", "group": "SMS",        "weight": 5},
+
+  "android.permission.READ_EXTERNAL_STORAGE":       {"level": "dangerous", "group": "STORAGE",    "weight": 5},
+  "android.permission.WRITE_EXTERNAL_STORAGE":      {"level": "dangerous", "group": "STORAGE",    "weight": 5},
+  "android.permission.READ_MEDIA_IMAGES":           {"level": "dangerous", "group": "STORAGE",    "weight": 5},
+  "android.permission.READ_MEDIA_VIDEO":            {"level": "dangerous", "group": "STORAGE",    "weight": 5},
+  "android.permission.READ_MEDIA_AUDIO":            {"level": "dangerous", "group": "STORAGE",    "weight": 5},
+  "android.permission.READ_MEDIA_VISUAL_USER_SELECTED": {"level": "dangerous", "group": "STORAGE", "weight": 5},
+  "android.permission.MANAGE_EXTERNAL_STORAGE":     {"level": "dangerous", "group": "STORAGE",    "weight": 5},
+
+  "android.permission.READ_CALENDAR":               {"level": "dangerous", "group": "CALENDAR",   "weight": 5},
+  "android.permission.WRITE_CALENDAR":              {"level": "dangerous", "group": "CALENDAR",   "weight": 5},
+
+  "android.permission.BODY_SENSORS":                {"level": "dangerous", "group": "SENSORS",    "weight": 5},
+  "android.permission.BODY_SENSORS_BACKGROUND":     {"level": "dangerous", "group": "SENSORS",    "weight": 5},
+  "android.permission.ACTIVITY_RECOGNITION":        {"level": "dangerous", "group": "SENSORS",    "weight": 5},
+
+  "android.permission.POST_NOTIFICATIONS":          {"level": "dangerous", "group": "NOTIFICATIONS", "weight": 5},
+
+  "android.permission.NEARBY_WIFI_DEVICES":         {"level": "dangerous", "group": "NEARBY_DEVICES", "weight": 5},
+  "android.permission.BLUETOOTH_SCAN":              {"level": "dangerous", "group": "NEARBY_DEVICES", "weight": 5},
+  "android.permission.BLUETOOTH_ADVERTISE":         {"level": "dangerous", "group": "NEARBY_DEVICES", "weight": 5},
+  "android.permission.BLUETOOTH_CONNECT":           {"level": "dangerous", "group": "NEARBY_DEVICES", "weight": 5},
+  "android.permission.UWB_RANGING":                 {"level": "dangerous", "group": "NEARBY_DEVICES", "weight": 5},
+
+  "android.permission.INTERNET":                    {"level": "normal", "group": "NETWORK",  "weight": 1},
+  "android.permission.ACCESS_NETWORK_STATE":        {"level": "normal", "group": "NETWORK",  "weight": 1},
+  "android.permission.ACCESS_WIFI_STATE":           {"level": "normal", "group": "NETWORK",  "weight": 1},
+  "android.permission.CHANGE_WIFI_STATE":           {"level": "normal", "group": "NETWORK",  "weight": 1},
+  "android.permission.CHANGE_NETWORK_STATE":        {"level": "normal", "group": "NETWORK",  "weight": 1},
+
+  "android.permission.VIBRATE":                     {"level": "normal", "group": "SYSTEM",   "weight": 1},
+  "android.permission.WAKE_LOCK":                   {"level": "normal", "group": "SYSTEM",   "weight": 1},
+  "android.permission.SET_ALARM":                   {"level": "normal", "group": "SYSTEM",   "weight": 1},
+  "android.permission.FOREGROUND_SERVICE":          {"level": "normal", "group": "SYSTEM",   "weight": 1},
+  "android.permission.RECEIVE_BOOT_COMPLETED":      {"level": "normal", "group": "SYSTEM",   "weight": 1},
+  "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS": {"level": "normal", "group": "SYSTEM", "weight": 1},
+  "android.permission.SCHEDULE_EXACT_ALARM":        {"level": "normal", "group": "SYSTEM",   "weight": 1},
+  "android.permission.USE_EXACT_ALARM":             {"level": "normal", "group": "SYSTEM",   "weight": 1},
+  "android.permission.USE_BIOMETRIC":               {"level": "normal", "group": "SYSTEM",   "weight": 1},
+  "android.permission.USE_FINGERPRINT":             {"level": "normal", "group": "SYSTEM",   "weight": 1},
+  "android.permission.FOREGROUND_SERVICE_CAMERA":   {"level": "normal", "group": "SYSTEM",   "weight": 1},
+  "android.permission.FOREGROUND_SERVICE_MICROPHONE": {"level": "normal", "group": "SYSTEM", "weight": 1},
+  "android.permission.FOREGROUND_SERVICE_LOCATION": {"level": "normal", "group": "SYSTEM",   "weight": 1},
+  "android.permission.FOREGROUND_SERVICE_DATA_SYNC": {"level": "normal", "group": "SYSTEM",  "weight": 1},
+  "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK": {"level": "normal", "group": "SYSTEM", "weight": 1},
+
+  "android.permission.BLUETOOTH":                   {"level": "normal", "group": "BLUETOOTH","weight": 1},
+  "android.permission.BLUETOOTH_ADMIN":             {"level": "normal", "group": "BLUETOOTH","weight": 1},
+
+  "android.permission.NFC":                         {"level": "normal", "group": "DIGER",    "weight": 1},
+  "android.permission.REQUEST_INSTALL_PACKAGES":    {"level": "normal", "group": "DIGER",    "weight": 1},
+  "android.permission.FLASHLIGHT":                  {"level": "normal", "group": "DIGER",    "weight": 1},
+  "android.permission.EXPAND_STATUS_BAR":           {"level": "normal", "group": "DIGER",    "weight": 1},
+  "android.permission.REQUEST_DELETE_PACKAGES":     {"level": "normal", "group": "DIGER",    "weight": 1},
+  "android.permission.REORDER_TASKS":               {"level": "normal", "group": "DIGER",    "weight": 1},
+  "android.permission.SET_WALLPAPER":               {"level": "normal", "group": "DIGER",    "weight": 1},
+  "android.permission.SET_WALLPAPER_HINTS":         {"level": "normal", "group": "DIGER",    "weight": 1},
+  "android.permission.KILL_BACKGROUND_PROCESSES":   {"level": "normal", "group": "DIGER",    "weight": 1},
+  "android.permission.TRANSMIT_IR":                 {"level": "normal", "group": "DIGER",    "weight": 1},
+
+  "android.permission.BIND_ACCESSIBILITY_SERVICE":           {"level": "signature", "group": "SIGNATURE_BIND", "weight": 3},
+  "android.permission.BIND_NOTIFICATION_LISTENER_SERVICE":   {"level": "signature", "group": "SIGNATURE_BIND", "weight": 3},
+  "android.permission.BIND_DEVICE_ADMIN":                    {"level": "signature", "group": "SIGNATURE_BIND", "weight": 3},
+  "android.permission.BIND_INPUT_METHOD":                    {"level": "signature", "group": "SIGNATURE_BIND", "weight": 3},
+  "android.permission.BIND_VPN_SERVICE":                     {"level": "signature", "group": "SIGNATURE_BIND", "weight": 3},
+  "android.permission.BIND_WALLPAPER":                       {"level": "signature", "group": "SIGNATURE_BIND", "weight": 3},
+  "android.permission.BIND_AUTOFILL_SERVICE":                {"level": "signature", "group": "SIGNATURE_BIND", "weight": 3},
+  "android.permission.BIND_TELECOM_CONNECTION_SERVICE":      {"level": "signature", "group": "SIGNATURE_BIND", "weight": 3},
+  "android.permission.WRITE_SETTINGS":                       {"level": "signature", "group": "SIGNATURE_SYSTEM", "weight": 3},
+  "android.permission.WRITE_SECURE_SETTINGS":                {"level": "signature", "group": "SIGNATURE_SYSTEM", "weight": 3},
+  "android.permission.SYSTEM_ALERT_WINDOW":                  {"level": "signature", "group": "SIGNATURE_SYSTEM", "weight": 3},
+  "android.permission.INSTALL_PACKAGES":                     {"level": "signature", "group": "SIGNATURE_SYSTEM", "weight": 3},
+  "android.permission.DELETE_PACKAGES":                      {"level": "signature", "group": "SIGNATURE_SYSTEM", "weight": 3},
+  "android.permission.READ_LOGS":                            {"level": "signature", "group": "SIGNATURE_SYSTEM", "weight": 3},
+  "android.permission.DUMP":                                 {"level": "signature", "group": "SIGNATURE_SYSTEM", "weight": 3},
+  "android.permission.PACKAGE_USAGE_STATS":                  {"level": "signature", "group": "SIGNATURE_SYSTEM", "weight": 3}
+}

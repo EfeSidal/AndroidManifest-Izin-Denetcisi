@@ -1,4 +1,8 @@
 <div align="center">
+  <a href="https://istinye.edu.tr">
+    <img src="docs/assets/istinye-university-logo.png" alt="Istinye University" width="180"/>
+  </a>
+<div align="center">
 
   # AndroidManifest İzin Denetçisi
 
@@ -23,7 +27,7 @@
 | | |
 |---|---|
 | **Ad Soyad** | Efe Sidal |
-| **Öğrenci No** | [Öğrenci Numaranız] |
+| **Öğrenci No** | `2420****1004` |
 
 ## 📚 Ders Bilgileri
 | | |

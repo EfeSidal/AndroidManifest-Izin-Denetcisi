@@ -1,0 +1,42 @@
+{
+  "apk_info": {
+    "package": "app.organicmaps",
+    "app_name": "Organic Maps",
+    "sha256": "dummy_sha256"
+  },
+  "permissions": [
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+    "android.permission.INTERNET",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.FOREGROUND_SERVICE_LOCATION",
+    "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+    "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+    "android.permission.POST_NOTIFICATIONS"
+  ],
+  "cross_check": {
+    "apktool_available": false,
+    "match": null,
+    "only_in_androguard": [],
+    "only_in_apktool": []
+  },
+  "score": {
+    "total_score": 30,
+    "band": "Orta",
+    "dangerous_count": 3,
+    "normal_count": 7,
+    "signature_count": 0,
+    "unknown_count": 1,
+    "breakdown": []
+  },
+  "combinations": [
+    {
+      "ad": "KONUM_TAKIBI",
+      "aciklama": "Hassas konum surekli takip edilip sunucuya iletilebilir",
+      "risk": "YUKSEK"
+    }
+  ]
+}

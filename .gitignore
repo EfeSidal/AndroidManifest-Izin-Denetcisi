@@ -4,6 +4,4 @@ __pycache__/
 venv/
 .venv/
 apks/*.apk
-reports/*.md
-reports/*.json
 *.decoded/

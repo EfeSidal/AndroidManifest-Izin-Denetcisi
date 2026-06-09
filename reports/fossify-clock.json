@@ -1,0 +1,38 @@
+{
+  "apk_info": {
+    "package": "org.fossify.clock",
+    "app_name": "Fossify Clock",
+    "sha256": "dummy_sha256"
+  },
+  "permissions": [
+    "com.android.alarm.permission.SET_ALARM",
+    "android.permission.VIBRATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.USE_FULL_SCREEN_INTENT",
+    "android.permission.SCHEDULE_EXACT_ALARM",
+    "android.permission.USE_EXACT_ALARM",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+    "android.permission.SYSTEM_ALERT_WINDOW",
+    "android.permission.WAKE_LOCK",
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+    "android.permission.DISABLE_KEYGUARD"
+  ],
+  "cross_check": {
+    "apktool_available": false,
+    "match": null,
+    "only_in_androguard": [],
+    "only_in_apktool": []
+  },
+  "score": {
+    "total_score": 28,
+    "band": "Orta",
+    "dangerous_count": 1,
+    "normal_count": 8,
+    "signature_count": 1,
+    "unknown_count": 3,
+    "breakdown": []
+  },
+  "combinations": []
+}
